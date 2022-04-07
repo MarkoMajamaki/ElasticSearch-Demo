@@ -1,0 +1,5 @@
+resources:
+- demo-api.yml
+- elasticsearch.yml
+- kibana.yml
+- gateway.yml

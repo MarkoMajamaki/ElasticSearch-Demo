@@ -1,0 +1,7 @@
+obj
+bin
+notes.txt
+.crt/http_ca.crt
+.crt/Demo.Api.pfx
+.crt/https.crt
+.crt/key.pem

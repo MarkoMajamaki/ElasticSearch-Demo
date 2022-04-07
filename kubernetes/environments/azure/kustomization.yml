@@ -1,0 +1,7 @@
+bases:
+- ../../base/
+  
+images:
+- name: elasticsearch_demo/demo-api
+  newName: elasticsearchdemoacr.azurecr.io/demo-api
+  newTag: latest
