@@ -3,12 +3,12 @@
 Demo to run and test ElasticSearch in Azure Kubernetes Service. **Not production ready! Still need lots of changes!**
 
 ## Prerequesties
-```
+
 ## Deployment guide
-* [Azure Kubernetes Services](https://)
-* [Docker](https://)
-* [Docker Compose](https://)
-* [Kind](https://)
+* [Azure Kubernetes Services](https://github.com/MarkoMajamaki/ElasticSearch-Demo/tree/main/deploy/azure)
+* [Docker](https://github.com/MarkoMajamaki/ElasticSearch-Demo/tree/main/deploy/docker)
+* [Docker Compose](https://github.com/MarkoMajamaki/ElasticSearch-Demo/tree/main/deploy/docker-compose)
+* [Kind](https://github.com/MarkoMajamaki/ElasticSearch-Demo/tree/main/deploy/kind)
 
 ## Create certificate
 
@@ -31,5 +31,5 @@ kubectl logs -f elasticsearch-es-node-0
 kubectl logs -f elasticsearch-es-node-1
 ```
 ## Useful links
-* [Running the Elastic Stack on Kubernetes with ECK (YouTube)] (https://www.youtube.com/watch?v=Wf6E3vkvEFM)
-* [Offical www.elastic.co guide](https://www.elastic.co/guide/en/cloud-on-k8s/1.9/k8s-overview.html)
+* [Running the Elastic Stack on Kubernetes with ECK (YouTube)](https://www.youtube.com/watch?v=Wf6E3vkvEFM)
+* [Offical ElasticSearch guide](https://www.elastic.co/guide/en/cloud-on-k8s/1.9/k8s-overview.html)
